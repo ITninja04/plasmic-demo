@@ -1,0 +1,87 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.12),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.02);
+  min-width: 0;
+  border-radius: 5px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 10px;
+}
+.root__long {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.root__long > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.root__long > :global(.__wab_flex-container) > *,
+.root__long > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.box__lY35E {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.box__long__lY35EfTg0Z {
+  align-items: flex-start;
+}
+.slotChildren {
+  text-align: center;
+}
+.slotChildren__long {
+  text-align: left;
+}
+.box__rqEs {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.box__long__rqEsFTg0Z {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 1px 0px rgb(234, 234, 234)
+    /* plasmic-token: oe3_D-psCre8PL */;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(234, 234, 234) /* plasmic-token: oe3_D-psCre8PL */;
+}
+.svg___1OppY {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
